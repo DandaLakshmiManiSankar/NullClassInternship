@@ -23,10 +23,6 @@ genai.configure(api_key=GOOGLE_API_KEY)
 #Initialize Google Gemini Model
 try:
     model = genai.GenerativeModel("gemini-1.5-pro-latest") #The Google Gemini API (GenerativeModel) does not provide a method to save the model, as it is a cloud-based service.
-    model.load_weights("SavedModelWt3.h5")
-    model.save("saved_model#.h5")
-    print("Model saved successfully as saved_model.h5")
-    print("ModelWeights saved")
 except Exception as e:
     st.error(f" Google API Error: {str(e)}")
 
