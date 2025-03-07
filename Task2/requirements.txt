@@ -1,0 +1,8 @@
+streamlit
+torch
+diffusers
+google-generativeai
+xformers
+accelerate
+transformers
+sentence-transformers
