@@ -1,5 +1,5 @@
 # NullClassInternship
-My Internship Tasks (Duration: Feb10-Mar10,2025)
+My Internship Tasks on GenAI Chatbot Creation (Duration: Feb10-Mar10,2025)
 --------------------
 
 
